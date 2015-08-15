@@ -1,0 +1,18 @@
+pkgbase = flo-llvm
+	pkgdesc = Converts Flo files to LLVM files
+	pkgver = 0.0.14
+	pkgrel = 2
+	url = https://github.com/palmer-dabbelt/flo-llvm
+	arch = i686
+	arch = x86_64
+	groups = dreamer-tools
+	license = GPL2
+	makedepends = pconfigure
+	depends = libflo
+	depends = llvm
+	depends = clang
+	depends = lsb-release
+	source = https://github.com/palmer-dabbelt/flo-llvm/archive/v0.0.14.tar.gz
+
+pkgname = flo-llvm
+
